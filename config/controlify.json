@@ -1,0 +1,543 @@
+{
+  "current_controller": "c4fa89a0-cf0f-385f-af2a-595e746d968f",
+  "controllers": {
+    "c4fa89a0-cf0f-385f-af2a-595e746d968f": {
+      "config": {
+        "left_stick_deadzone": 0.05001526,
+        "right_stick_deadzone": 0.05001526,
+        "gyro_look_sensitivity": 0.0,
+        "relative_gyro_mode": false,
+        "gyro_requires_button": true,
+        "flick_stick": false,
+        "invert_gyro_x": false,
+        "invert_gyro_y": false,
+        "gyro_calibration": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "theme": "DEFAULT",
+        "horizontal_look_sensitivity": 1.0,
+        "vertical_look_sensitivity": 0.9,
+        "button_activation_threshold": 0.5,
+        "virtual_mouse_sensitivity": 1.0,
+        "auto_jump": false,
+        "toggle_sprint": true,
+        "toggle_sneak": true,
+        "custom_name": null,
+        "show_ingame_guide": true,
+        "ingame_guide_bottom": false,
+        "show_screen_guide": true,
+        "chat_keyboard_height": 0.0,
+        "reduce_aiming_sensitivity": true,
+        "allow_vibrations": true,
+        "vibration_strengths": {
+          "controlify:master": 1.0,
+          "controlify:damage": 1.0,
+          "controlify:block_destroy": 1.0,
+          "controlify:use_item": 1.0,
+          "controlify:item_break": 1.0,
+          "controlify:gui": 1.0,
+          "controlify:explosion": 1.0,
+          "controlify:misc": 1.0,
+          "controlify:global_event": 1.0
+        },
+        "deadzones_calibrated": true,
+        "delayed_calibration": false,
+        "mixed_input": false
+      },
+      "bindings": {
+        "controlify:walk_forward": {
+          "type": "gamepad",
+          "bind": "left_stick_up"
+        },
+        "controlify:walk_backward": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "controlify:strafe_left": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "controlify:strafe_right": {
+          "type": "gamepad",
+          "bind": "left_stick_right"
+        },
+        "controlify:look_up": {
+          "type": "gamepad",
+          "bind": "right_stick_up"
+        },
+        "controlify:look_down": {
+          "type": "gamepad",
+          "bind": "right_stick_down"
+        },
+        "controlify:look_left": {
+          "type": "gamepad",
+          "bind": "right_stick_left"
+        },
+        "controlify:look_right": {
+          "type": "gamepad",
+          "bind": "right_stick_right"
+        },
+        "controlify:jump": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:sprint": {
+          "type": "gamepad",
+          "bind": "left_stick_press"
+        },
+        "controlify:sneak": {
+          "type": "gamepad",
+          "bind": "right_stick_press"
+        },
+        "controlify:attack": {
+          "type": "gamepad",
+          "bind": "left_trigger"
+        },
+        "controlify:use": {
+          "type": "gamepad",
+          "bind": "right_trigger"
+        },
+        "controlify:drop": {
+          "type": "gamepad",
+          "bind": "dpad_down"
+        },
+        "controlify:drop_stack": {
+          "type": "empty"
+        },
+        "controlify:next_slot": {
+          "type": "gamepad",
+          "bind": "right_bumper"
+        },
+        "controlify:prev_slot": {
+          "type": "gamepad",
+          "bind": "left_bumper"
+        },
+        "controlify:pause": {
+          "type": "gamepad",
+          "bind": "start"
+        },
+        "controlify:inventory": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:change_perspective": {
+          "type": "gamepad",
+          "bind": "back"
+        },
+        "controlify:swap_hands": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:open_chat": {
+          "type": "gamepad",
+          "bind": "dpad_up"
+        },
+        "controlify:gui_press": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:gui_back": {
+          "type": "gamepad",
+          "bind": "b_button"
+        },
+        "controlify:gui_next_tab": {
+          "type": "gamepad",
+          "bind": "right_bumper"
+        },
+        "controlify:gui_prev_tab": {
+          "type": "gamepad",
+          "bind": "left_bumper"
+        },
+        "controlify:gui_abstract_action_1": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:gui_abstract_action_2": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:inv_select": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:inv_quick_move": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:inv_take_half": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:pick_block": {
+          "type": "gamepad",
+          "bind": "dpad_left"
+        },
+        "controlify:toggle_hud_visibility": {
+          "type": "empty"
+        },
+        "controlify:show_player_list": {
+          "type": "gamepad",
+          "bind": "dpad_right"
+        },
+        "controlify:vmouse_move_up": {
+          "type": "gamepad",
+          "bind": "left_stick_up"
+        },
+        "controlify:vmouse_move_down": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "controlify:vmouse_move_left": {
+          "type": "gamepad",
+          "bind": "left_stick_left"
+        },
+        "controlify:vmouse_move_right": {
+          "type": "gamepad",
+          "bind": "left_stick_right"
+        },
+        "controlify:vmouse_lclick": {
+          "type": "gamepad",
+          "bind": "a_button"
+        },
+        "controlify:vmouse_rclick": {
+          "type": "gamepad",
+          "bind": "x_button"
+        },
+        "controlify:vmouse_shift_click": {
+          "type": "gamepad",
+          "bind": "y_button"
+        },
+        "controlify:vmouse_scroll_up": {
+          "type": "gamepad",
+          "bind": "right_stick_up"
+        },
+        "controlify:vmouse_scroll_down": {
+          "type": "gamepad",
+          "bind": "right_stick_down"
+        },
+        "controlify:vmouse_shift": {
+          "type": "gamepad",
+          "bind": "left_stick_press"
+        },
+        "controlify:vmouse_toggle": {
+          "type": "gamepad",
+          "bind": "back"
+        },
+        "controlify:gui_navi_up": {
+          "type": "gamepad",
+          "bind": "left_stick_up"
+        },
+        "controlify:gui_navi_down": {
+          "type": "gamepad",
+          "bind": "left_stick_down"
+        },
+        "controlify:gui_navi_left": {
+          "type": "gamepad",
+          "bind": "left_stick_left"
+        },
+        "controlify:gui_navi_right": {
+          "type": "gamepad",
+          "bind": "left_stick_right"
+        },
+        "controlify:cycle_opt_forward": {
+          "type": "gamepad",
+          "bind": "right_stick_right"
+        },
+        "controlify:cycle_opt_backward": {
+          "type": "gamepad",
+          "bind": "right_stick_left"
+        },
+        "controlify:clear_binding": {
+          "type": "gamepad",
+          "bind": "right_stick_press"
+        },
+        "fabric-key-binding-api-v1:reload_menu___ctrl___alt___": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:toggle_customization_overlay___ctrl___alt___": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.valkyrienskies.ship_down": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.valkyrienskies.ship_cruise": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:keybinds.bettercombat.feint": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:keybinds.bettercombat.toggle_mine_with_weapons": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.essentialgui.main_menu": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.essentialgui.debug_entities": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.essentialgui.toggle_lighting": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.essentialgui.increase_gamma": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.essentialgui.decrease_gamma": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.essentialgui.zoom_in": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.essentialgui.contextual_menu": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.essentialgui.toggle_night_vision": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.origins.ternary_active": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.origins.quaternary_active": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.origins.quinary_active": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.origins.senary_active": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.origins.septenary_active": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.origins.octonary_active": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.origins.nonary_active": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.origins.denary_active": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.hwg.reload": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.hwg.scope": {
+          "type": "gamepad",
+          "bind": "left_trigger"
+        },
+        "fabric-key-binding-api-v1:key.immersive_aircraft.multi_control_left": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.immersive_aircraft.multi_control_right": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.immersive_aircraft.multi_control_forward": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.immersive_aircraft.multi_control_backward": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.immersive_aircraft.multi_control_up": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.immersive_aircraft.multi_control_down": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.immersive_aircraft.multi_control_pull": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.immersive_aircraft.multi_control_push": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.immersive_aircraft.multi_dismount": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.immersive_aircraft.multi_boost": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.config": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.show_overlay": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.toggle_liquid": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.show_recipes": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.show_uses": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.narrate": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.jade.show_details_alternative": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.levelz.openskillscreen": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.modmenu.open_menu": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.lift_menu": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.train_accelerate": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.train_brake": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.train_toggle_doors": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.debug_1_negative": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.debug_2_negative": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.debug_3_negative": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.debug_1_positive": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.debug_2_positive": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.debug_3_positive": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.debug_cycle_negative": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.mtr.debug_cycle_positive": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_pac_key_open_menu": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.origins.primary_active": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.origins.secondary_active": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.origins.view_origin": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.smallships.ship_sail": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_switch_waypoint_set": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_instant_waypoint": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_toggle_slime": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_toggle_grid": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_toggle_waypoints": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_toggle_map_waypoints": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_toggle_map": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_enlarge_map": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_waypoints_key": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_zoom_in": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_zoom_out": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_new_waypoint": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_display_all_sets": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_toggle_light_overlay": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_toggle_entity_radar": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_reverse_entity_radar": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_toggle_manual_cave_mode": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_alternative_list_players": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_toggle_tracked_players": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_toggle_pac_chunk_claims": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_minimap_settings": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_open_map": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_open_settings": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_map_zoom_in": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_map_zoom_out": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:gui.xaero_quick_confirm": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:iris.keybind.reload": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:iris.keybind.toggleshaders": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:iris.keybind.shaderpackselection": {
+          "type": "empty"
+        }
+      }
+    }
+  },
+  "compound_joysticks": [],
+  "global": {
+    "virtual_mouse_screens": [
+      "net.minecraft.class_465"
+    ],
+    "keyboard_movement": false,
+    "out_of_focus_input": false,
+    "load_vibration_natives": true,
+    "vibration_onboarded": true,
+    "reach_around": "OFF",
+    "allow_server_rumble": true,
+    "ui_sounds": false,
+    "notify_low_battery": true,
+    "delegate_setup": false,
+    "ingame_button_guide_scale": 1.0
+  }
+}
