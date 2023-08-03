@@ -12,7 +12,7 @@
 	"pointsPerLevel": 1,
 	// If true will reset stats on death
 	"hardMode": false,
-	"disableMobFarms": true,
+	"disableMobFarms": false,
 	// Amount of allowed mob kills in a chunk
 	"mobKillCount": 5,
 	// Strange potion resets all stats instead of one
@@ -22,7 +22,7 @@
 	// Only for Devs
 	"devMode": false,
 	// Attribute values - Bonus for each lvl
-	"healthBase": 6.0,
+	"healthBase": 8.0,
 	"healthBonus": 1.0,
 	// Absorption Bonus at max lvl
 	"healthAbsorptionBonus": 6.0,
