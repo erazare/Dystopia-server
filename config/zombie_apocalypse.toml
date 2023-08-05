@@ -1,0 +1,76 @@
+zombiesBurnInSunlight = false
+
+[Scream]
+enabled = true
+message = "The dead hunger for flesh"
+sound = "entity.zombie.ambient"
+volume = 2.0
+pitch = 1.0
+
+[Spawning]
+spawnInstantly = false
+vanillaSpawnRestrictionOnFoot = true
+checkIfBlockBelowAllowsSpawning = true
+lightLevel = 15
+mobIds = ["zombie", "zombie_villager"]
+mobWeights = [95, 5]
+minPlayerDistance = 16
+maxZombieCountPerPlayer = 150
+allowedDimensions = ["overworld", "the_nether", "the_end"]
+
+[Spawning.instantSpawning]
+maxSpawnAttemptsPerTick = 100
+maxSpawnsPerTick = 10
+
+[Spawning.variants]
+chance = 0.01
+frostWeight = 1
+flameWeight = 1
+
+[Spawning.axisSpawn]
+chance = 0.1
+min = 16
+max = 48
+
+[Spawning.planeSpawn]
+chance = 0.1
+min = 16
+max = 48
+
+[Spawning.boxSpawn]
+chance = 0.1
+min = 24
+max = 64
+
+[Spawning.timeRange]
+min = 1000
+max = 13000
+
+[Equipment]
+armorChances = [0.1, 0.1, 0.1, 0.1]
+armorMaterialWeights = [1, 10, 100, 50, 50, 100, 10]
+weaponTypeWeights = [100, 20, 20, 75, 1]
+weaponMaterialWeights = [1, 10, 100, 50, 50, 100]
+weaponChance = 0.1
+
+[Equipment.Enchantment]
+chance = 0.5
+treasureAllowed = true
+
+[Equipment.Enchantment.level]
+min = 5
+max = 40
+
+[ArmorTrims]
+materials = ["quartz", "iron", "netherite", "redstone", "copper", "gold", "emerald", "diamond", "lapis", "amethyst"]
+materialWeights = [100, 100, 1, 50, 100, 100, 100, 10, 100, 100]
+patterns = ["sentry", "dune", "coast", "wild", "ward", "eye", "vex", "tide", "snout", "rib", "spire"]
+patternWeights = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+vanillaOnly = true
+chance = 0.1
+
+[statusEffects]
+ids = ["speed", "haste", "jump_boost", "regeneration", "resistance", "fire_resistance", "water_breathing", "invisibility", "health_boost", "absorption", "saturation", "slow_falling", "conduit_power", "dolphins_grace"]
+maxTimeInTicks = -1
+incrementalChances = [0.1, 0.5, 0.8, 0.9]
+maxAmplifier = 5
