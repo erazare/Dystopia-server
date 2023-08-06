@@ -10,8 +10,8 @@ pitch = 1.0
 [Spawning]
 spawnInstantly = false
 vanillaSpawnRestrictionOnFoot = true
-checkIfBlockBelowAllowsSpawning = true
-lightLevel = 15
+checkIfBlockBelowAllowsSpawning = false
+lightLevel = 5
 mobIds = ["zombie", "zombie_villager"]
 mobWeights = [95, 5]
 minPlayerDistance = 16
@@ -26,6 +26,7 @@ maxSpawnsPerTick = 10
 chance = 0.01
 frostWeight = 1
 flameWeight = 1
+potionWeight = 1
 
 [Spawning.axisSpawn]
 chance = 0.1

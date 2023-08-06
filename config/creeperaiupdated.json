@@ -1,6 +1,6 @@
 {
   "fireExplosions": true,
-  "canBreach": true,
+  "canBreach": false,
   "canLeap": true,
   "followingRadius": 32,
   "breachingRadius": 30,

@@ -27,7 +27,7 @@
     "origins:blazeborn": {
       "enabled": true,
       "origins:fire_immunity": true,
-      "origins:nether_spawn": true,
+      "origins:nether_spawn": false,
       "origins:burning_wrath": true,
       "origins:hotblooded": true,
       "bot:water_vulnerability": true,
